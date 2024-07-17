@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek </title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class="header">
+        <img class="logo_aluraGeek" src="imagens/Property 1=White.svg" alt="Logo de AluraGeek">
+    </header>
+
+    <main>
+         <section class="section__products">
+            <h1 class="title-products">Nuestros Produtos</h1>
+                <div data-product class="product-container">
+
+                </div> 
+
+        </section> 
+
+        <section class="section__form">
+            <h1 class="title-form">Agregar produto:</h1>
+
+            <div class="container-form">
+                <form class="add-products-form" data-form>
+                    <input class="input" data-name placeholder="Nombre..." type="text" required>
+                    <input class="input" data-price placeholder="Precio..." type="text" required>
+                    <input class="input" data-image placeholder="Foto del producto..." type="text" required>
+                        <div class="button-container">
+                            <button type="submit" class="button" id="salvar">Guardar</button>
+                            <button type="reset" class="button" id="cancelar">Cancelar</button>
+                    </div>
+                </form>
+            </div>
+
+        </section> 
+    </main>
+
+    <footer class="footer">
+        <img class="logo_aluraGeek-footer" src="imagens/Property 1=White.svg" alt="Logo de AluraGeek">
+    </footer> 
+
+
+    <!-- scripts da página -->
+     <script type="module" src="js/controles/main.js"></script>
+</body>
+</html>
